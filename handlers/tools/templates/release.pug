@@ -1,0 +1,19 @@
+extends layout
+
+block content
+
+  div(class='input-field')
+    input(id='pr-number' type='text' placeholder='Enter a merge PR number')
+
+  table
+    thead
+      tr
+        th PR
+        th Author
+        th Milestone
+        th Title
+        th Jira Ticket
+
+    tbody(id='prs')
+
+  script(src='/release.js')

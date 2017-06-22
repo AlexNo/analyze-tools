@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    link(rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons")
+    link(rel="stylesheet" href="/node_modules/materialize-css/dist/css/materialize.css")
+
+    base(href="/")
+    title GGRC Tools
+    block head
+
+  body
+
+    nav(class='light-blue accent-4')
+      div(class='container nav-wrapper')
+        a(class='brand-logo' href='#') GGRC Tools
+        ul(class="right")
+          li
+            a(href="/") Release
+          li
+            a(href="/har") HAR Analyzer
+
+    div(class='container')
+
+      block content

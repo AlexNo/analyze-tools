@@ -1,0 +1,25 @@
+extends layout
+
+block content
+
+  h3 HAR Analyzer
+
+  label HAR Content
+  textarea(id='har' class='materialize-textarea')
+
+  table
+    thead
+      tr
+        th Method
+        th Url
+        th Time
+
+    tbody(id='stats')
+
+    tfoot
+      tr
+        th
+        th Total
+        th(id='total')
+
+  script(src='/har.js')

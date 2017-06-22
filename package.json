@@ -1,0 +1,29 @@
+{
+  "name": "ggrc-tools",
+  "version": "0.0.1",
+  "description": "GGRC Tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_PATH=./handlers:./modules && nodemon --harmony index.js"
+  },
+  "author": "Alexander Novik",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^1.24.0",
+    "koa": "^2.0.0",
+    "koa-bodyparser": "^3.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-logger": "^2.0.0",
+    "koa-mount": "^2.0.0",
+    "koa-router": "^7.2.1",
+    "koa-static": "^3.0.0",
+    "materialize-css": "^0.98.2",
+    "pug": "^2.0.0-rc.2",
+    "request": "^2.81.0",
+    "request-promise": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
